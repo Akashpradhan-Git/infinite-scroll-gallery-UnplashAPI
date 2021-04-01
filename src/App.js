@@ -19,7 +19,7 @@ function App() {
 
   function fetchData(count = 5) {
     const urls = "https://api.unsplash.com";
-    const accessKey = 'D4CgYBoAdrt33PXrP9XMFb-V2FgcuflOCBogc19j_DA'
+    const accessKey = 'use your key'
 
     axios
       .get(`${urls}/photos/random/?client_id=${accessKey}&count=${count}`)
